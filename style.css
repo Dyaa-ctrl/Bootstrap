@@ -1,0 +1,58 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.bungkus{
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+  padding: 50px;
+}
+
+body{
+  background-color: grey;
+}
+
+.item1, .item2, .item3{
+  width: 250px;
+  color: white;
+  display: flex;
+  padding: 15px;
+}
+
+.beas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.menu-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid #007BFF;
+}
+
+.menu-item h5 {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #007BFF;
+  text-align: center;
+}
+
+
